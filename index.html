@@ -71,13 +71,22 @@
             </p>
 
             <!-- Video Embed -->
-            <div class="bg-gray-800 rounded-lg p-8 mb-8 max-w-2xl mx-auto">
-                <div class="aspect-video">
-                    <iframe class="w-full h-full rounded-lg" src="/image/Milena.mp4"
-                        title="Vídeo de Apresentação - Mentoria Endodontia" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            <div class="bg-gray-800 rounded-lg p-8 mb-8 max-w-md mx-auto">
+                <div class="aspect-[9/16] max-h-96">
+                    <video class="w-full h-full rounded-lg object-cover" controls poster="" preload="metadata">
+                        <source src="/image/Milena.mp4" type="video/mp4">
+                        <div class="bg-gray-700 rounded-lg flex items-center justify-center h-full">
+                            <div class="text-center">
+                                <svg class="w-16 h-16 mx-auto mb-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
+                                </svg>
+                                <p class="text-white">Vídeo de Apresentação</p>
+                            </div>
+                        </div>
+                    </video>
                 </div>
             </div>
-            
             <a href="https://wa.me/5511999999999" target="_blank"
                 class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 pulse-animation">
                 💬 Quero Falar com a Dra. Milena Agora
